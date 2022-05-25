@@ -1,3 +1,7 @@
+package Jailoo;
+
+import Jailoo.AT;
+
 import java.util.Arrays;
 
 public class JAILOO {
@@ -70,7 +74,7 @@ public class JAILOO {
 
     @Override
     public String toString() {
-        return "||<~JAILOO " +
+        return "||<~Jailoo.JAILOO " +
                 "name='" + name + '\'' +
                 ", daregi='" + daregi + '\'' +
                 ", chabandynaty='" + chabandynaty + '\''+"\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~`" +

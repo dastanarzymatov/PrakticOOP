@@ -1,3 +1,5 @@
+package Jailoo;
+
 public class AT  {
     private String attunAty;
     private int attunJashy;
@@ -38,7 +40,7 @@ public AT(){
 
     @Override
     public String toString() {
-        return "\n||<~AT " +
+        return "\n||<~Jailoo.AT " +
                 "attunAty='" + attunAty + '\'' +
                 ", attunJashy=" + attunJashy +
                 ", attunSalmagy=" + attunSalmagy +"~>||";

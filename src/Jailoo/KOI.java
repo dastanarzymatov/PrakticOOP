@@ -1,3 +1,5 @@
+package Jailoo;
+
 public class KOI  {
     private String koidunAty;
     private int koidunJashy;
@@ -38,7 +40,7 @@ public class KOI  {
 
     @Override
     public String toString() {
-        return "\n||<~KOI " +
+        return "\n||<~Jailoo.KOI " +
                 "koidunAty='" + koidunAty + '\'' +
                 ", koidunJashy=" + koidunJashy +
                 ", koidunSalmagy=" + koidunSalmagy +"~>||";

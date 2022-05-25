@@ -1,3 +1,5 @@
+package Jailoo;
+
 public class UY  {
     private String uydunAty;
     private int uydunJashy;
@@ -40,7 +42,7 @@ public class UY  {
 
     @Override
     public String toString() {
-        return "\n||<-UY " +
+        return "\n||<-Jailoo.UY " +
                 "uydunAty='" + uydunAty + '\'' +
                 ", uydunJashy=" + uydunJashy +
                 ", uydunSalmagy=" + uydunSalmagy +"~>||";

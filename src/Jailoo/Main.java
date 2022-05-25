@@ -1,3 +1,5 @@
+package Jailoo;
+
 public class Main {
     public static void main(String[] args) {
         UY uy=new UY("Sarybai",3,300);
@@ -38,7 +40,7 @@ public class Main {
       AT at7=new AT("boika",3,700);
 
       AT[]ats=new AT[]{at,at2,at3,at4,at5};
-      AT []at1=new AT[]{at6,at7};
+      AT[]at1=new AT[]{at6,at7};
 
         JAILOO jailoo=new JAILOO("arashan","Bishkek","Jaulanbek", at1,kois, uys);
         System.out.println(jailoo);
